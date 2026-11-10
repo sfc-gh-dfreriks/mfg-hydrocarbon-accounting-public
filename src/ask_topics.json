@@ -1,0 +1,23 @@
+{
+  "askCortexPage": {
+    "topic": "general",
+    "suggestions": [
+      "From the wellhead to the owner check: what did we produce, what did we get paid, and where is revenue leaking?",
+      "Which basin has the best netback per BOE, and why?",
+      "How much allocated volume was never valued, and on which wells?",
+      "Which division orders are out of step with the land system, and what is at stake?",
+      "Where are vendors billing more than the approved field tickets?",
+      "What would we lose by reading SAP from BDC instead of S/4HANA tables?"
+    ]
+  },
+  "pages": {
+    "overview": {"topic": "overview", "suggestions": ["Where is revenue leaking, and which leak is biggest?", "How have production, revenue and netback trended?"]},
+    "production": {"topic": "production", "suggestions": ["Which basins and wells drive production?", "How is the product mix changing?"]},
+    "revenue": {"topic": "revenue", "suggestions": ["Where is the realized price furthest below the hub?", "How much owner revenue is held in suspense, and why?"]},
+    "netbacks": {"topic": "netbacks", "suggestions": ["What drives the netback gap between basins?", "Which cost line hurts Eagle Ford most?"]},
+    "loe": {"topic": "loe", "suggestions": ["Which vendors overbill against field tickets?", "What is our unbilled LOE exposure?"]},
+    "division-orders": {"topic": "division-orders", "suggestions": ["Which division order exceptions put the most revenue at risk?", "Which owners are underpaid against the land deck?"]},
+    "recon": {"topic": "recon", "suggestions": ["Why is allocated volume not being valued?", "Which basins leak the most revenue between volume and valuation?"]},
+    "data-sources": {"topic": "sources", "suggestions": ["What does each source supply, and what are the gaps?", "What changes if SAP is read from BDC?"]}
+  }
+}
